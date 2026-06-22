@@ -1,0 +1,205 @@
+.head1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: palevioletred;
+}
+.head2{
+    border: 2px solid pink; border-radius:10px 0px 0px 10px;
+    background-color: antiquewhite;
+}
+.head3{
+    border: 2px solid pink;
+    width:50%;
+    background-color: antiquewhite;
+   
+}
+.searchbtn{
+    border:2px solid pink;border-radius: 5px;
+}
+.headbtn{
+    margin-left:0px;
+    border:2px solid pink;border-radius: 5px;
+}
+.headbtn2{
+    border:2px solid pink;border-radius: 5px;
+    background-color: palevioletred;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    
+}
+.big-bg{
+    height: 500px;
+    background-image: url('images/kenny2.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+.big-bg1{
+    height: 200px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin:100px 50px;
+    
+}
+.big-bgbtn{
+    background-color: antiquewhite;
+    height: 50px;
+
+}
+.big-bgbtn:hover{
+    background-color: palevioletred;
+}
+.feeds{
+    
+    border-radius: 5px;  
+}
+.feeds p{
+    font-size: 1em;padding: 0px;margin: 0px;
+}
+.feeds img{
+    width: 100%;
+    
+}
+.links{
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+}
+.footbg{
+    height: 100px;
+    width: 100%;
+}
+
+.social img{width:50px;transition: 0.5s}
+.social a:hover img{transform: translateY(-10px);}
+.footer{background-color: palevioletred;padding: 5px;}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    padding: 5px 20px;
+}
+
+.modalbg{
+    background-color: palevioletred;
+}
+.modalbg a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.btntoggle{
+    margin: 0 50px;
+}
+/* login */
+.logbody{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+form{
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+.btnlog{
+    background-color:palevioletred;
+    border-radius: 5px;
+    margin-left: auto;
+    height: 50px;
+ }
+.btnlog:hover{
+    background-color: antiquewhite;
+}
+/* sell */
+.sellbg{
+    height: 70px;
+    width: 70%;
+    background-color: palevioletred;
+    box-shadow: 1px 3px 2px;
+    border-radius: 2px;
+}
+.sellbg1{
+    height: 650px;
+    width: 70%;
+    background-color: palevioletred;
+    box-shadow: 1px 3px 2px;
+    border-radius: 2px;
+}
+/* product */
+.imgproduct{
+    width: 80%;height: 500px;;
+}
+.imgproduct1{
+    width: 30%;height: 200px;
+}
+.prevpro{
+    position: relative;
+    top:250px;
+    color: palevioletred;
+}
+.prevpro:hover{
+    color: black;
+}
+.nextpro{
+    position: relative;
+    top:250px;
+    left: 500px;
+    color: palevioletred
+}
+.nextpro:hover{
+    color: black;
+}
+.useritems{
+    border-radius: 5px;
+}
+.useritems img{
+    height: 20%;
+    height: 250px;
+    border-radius: 3px;
+}
+.useritems p{
+    font-size: 1em;padding: 0px;margin: 0px;
+}
+i{
+    height: 10px;
+}
+.userborder{
+    border-radius: 2px solid palevioletred;
+    background-color: palevioletred;
+    border-radius: 100%;
+    height: auto;
+    width: auto;
+}
+.userborder{
+    height: 50px;;
+}
+.userimage{
+    width: 40px;
+    height: 100px;
+    /* border-radius:20px */
+}
+/* list */
+.page{
+    color:palevioletred;
+}
+.headeruser{
+    background: palevioletred;
+}
+/* admin */
+.summary{
+    height: 50px;
+    width: 15%;
+}
+.category{
+    color:black;
+}
+.category:hover{
+    color:goldenrod;
+}
+
